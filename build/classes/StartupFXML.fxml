@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartupFXMLController">
+   <children>
+      <Text layoutX="14.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO YOUR TODO MANAGER" wrappingWidth="685.85546875">
+         <font>
+            <Font name="Javanese Text" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="enterbtn" layoutX="297.0" layoutY="188.0" mnemonicParsing="false" onAction="#enterAction" prefHeight="25.0" prefWidth="86.0" text="Enter" />
+   </children>
+</AnchorPane>
+
